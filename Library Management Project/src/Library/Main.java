@@ -34,7 +34,7 @@ public class Main {
             switch (choice) {
                 case 0:
                     System.out.println("Exiting...");
-                    break;
+                    System.exit(0);
                 case 1:
                     login();
                     break;

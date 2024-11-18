@@ -55,7 +55,7 @@ public class BorrowBook implements IOOperation {
                     database.borrowBook(borrowing, book, bookIndex); // Record the borrowing in the database
 
                     // Inform the user of the borrowing details
-                    System.out.println("You must return the book before 14 days from now.\n" +
+                    System.out.println("Borrowed! You must return the book before 14 days from now.\n" +
                             "Expiry Date: " + borrowing.getFinish() + ". Enjoy!");
                 } else {
                     // Inform user that the book is not available for borrowing
